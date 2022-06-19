@@ -6,6 +6,11 @@ public class Employee {
     private final String surname;
     private final String patronymic;
     private final double salary;
+
+    public static void setCounter(int counter) {
+        Employee.counter = counter;
+    }
+
     private final   int department;
     private final int id;
 
